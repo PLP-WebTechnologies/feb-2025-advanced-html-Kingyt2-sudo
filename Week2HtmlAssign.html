@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+    
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Reading</li>
+        <li>Crotcheting</li>
+        <li>running</li>
+        <li>Dancing</li>
+        <li>singing</li>
+    </ol>
+    
+    
+    <h2>External Image</h2>
+    <img src="file:///C:/Users/DELL/Downloads/pexels%20sample%20image.webp" alt="Sample Image from Pexels" width="500">
+    
+
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Loise Waititu</td>
+                <td>123 Main St</td>
+                <td>+254456789</td>
+                <td>waitituloise@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mathew Mccany</td>
+                <td>456 Elm St</td>
+                <td>+254654321</td>
+                <td>mathewmccany@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>789 Oak St</td>
+                <td>+254222333</td>
+                <td>michaelb234@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kevin Njenga</td>
+                <td>321 Pine St</td>
+                <td>+254555666</td>
+                <td>kevinnj@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Green</td>
+                <td>654 Maple St</td>
+                <td>+254888999</td>
+                <td>davidgreen@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+      
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <label>Subscription Type:</label>
+        <input type="radio" id="basic" name="subscription" value="basic" required>
+        <label for="basic">Basic</label>
+        <input type="radio" id="premium" name="subscription" value="premium">
+        <label for="premium">Premium</label>
+        <br><br>
+
+      
+        <label>Interests:</label>
+        <input type="checkbox" id="tech" name="interests" value="tech">
+        <label for="tech">Technology</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
